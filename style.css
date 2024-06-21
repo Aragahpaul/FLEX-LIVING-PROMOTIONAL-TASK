@@ -333,6 +333,85 @@ body {
   }
 }
 
+@media (max-width: 520px) {
+  .header {
+    padding: 1rem 4%;
+  }
+
+  .header .logo {
+    width: 20%;
+  }
+
+  .hero-section {
+    min-height: 425px;
+  }
+
+  .right-side h2 {
+    font-size: 2.4rem;
+    margin-right: 2rem;
+  }
+
+  .right-side p {
+    font-size: 1.4rem;
+  }
+
+  .right-side p br {
+    display: none;
+  }
+
+  .hero-section .title-box {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+
+  .hero-section .title-box h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-section .title-box p {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+
+  .hero-section .title-box {
+    padding: 1.4rem 2rem;
+    top: 3rem;
+  }
+
+  .features-section .head-title h2 {
+    font-size: 2.4rem;
+  }
+
+  .features-section .head-title p {
+    font-size: 1.4rem;
+  }
+
+  .head-title br {
+    display: none;
+  }
+
+  .features-list {
+    width: 290px;
+    height: 230px;
+
+    align-items: center;
+  }
+
+  .location-container {
+    gap: 4rem;
+  }
+
+  .location-box h4 {
+    font-size: 2rem;
+  }
+
+  .location-box img {
+    width: 290px;
+    height: 230px;
+  }
+}
+
 @media (max-width: 425px) {
   .header {
     padding: 1rem 4%;
